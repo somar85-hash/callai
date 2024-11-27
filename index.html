@@ -9,18 +9,18 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            text-align: center;
             background-color: #f4f4f4;
             margin: 0;
             padding: 0;
         }
         .header {
-            padding: 20px;
             background-color: #1e1e2d;
+            padding: 20px;
             color: white;
+            text-align: center;
         }
         .header img {
-            height: 50px;
+            height: 60px;
         }
         .header h1 {
             margin: 10px 0 0;
@@ -29,9 +29,10 @@
 </head>
 <body>
     <div class="header">
-        <img src="CallAILogo.png" alt="Call AI Logo">
+        <img src="call-ai-logo.png" alt="Call AI Logo">
         <h1>Call AI API Documentation</h1>
+        <p>Your go-to resource for integrating Call AI APIs.</p>
     </div>
-    <redoc spec-url="/api-docs.yaml"></redoc>
+    <redoc spec-url="call-ai-api-spec.yaml"></redoc>
 </body>
 </html>
